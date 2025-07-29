@@ -1,4 +1,3 @@
-
 class MySongModel {
   int? id;
   String? title;
@@ -7,37 +6,44 @@ class MySongModel {
   String? albumArt;
   String? data;
 
-  MySongModel({this.id, this.title, this.artist, this.album, this.albumArt, this.data});
+  MySongModel({
+    this.id,
+    this.title,
+    this.artist,
+    this.album,
+    this.albumArt,
+    this.data,
+  });
 
   MySongModel.fromJson(Map<String, dynamic> json) {
-    if(json["id"] is int) {
+    if (json["id"] is int) {
       id = json["id"];
     }
-    if(json["title"] is String) {
+    if (json["title"] is String) {
       title = json["title"];
     }
-    if(json["artist"] is String) {
+    if (json["artist"] is String) {
       artist = json["artist"];
     }
-    if(json["album"] is String) {
+    if (json["album"] is String) {
       album = json["album"];
     }
-    if(json["albumArt"] is String) {
+    if (json["albumArt"] is String) {
       albumArt = json["albumArt"];
     }
-    if(json["data"] is String) {
+    if (json["data"] is String) {
       data = json["data"];
     }
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> _data = <String, dynamic>{};
-    _data["id"] = id;
-    _data["title"] = title;
-    _data["artist"] = artist;
-    _data["album"] = album;
-    _data["albumArt"] = albumArt;
-    _data["data"] = data;
-    return _data;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data["id"] = id;
+    data["title"] = title;
+    data["artist"] = artist;
+    data["album"] = album;
+    data["albumArt"] = albumArt;
+    data["data"] = data;
+    return data;
   }
 }
