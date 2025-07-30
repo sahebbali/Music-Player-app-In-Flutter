@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
-import 'package:music_player/Model/MySongModel.dart';
+import 'package:music_player/Model/my_song_model.dart';
 
 class CloudSongController extends GetxController {
   final db = FirebaseFirestore.instance;

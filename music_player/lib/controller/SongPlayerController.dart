@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:music_player/Model/MySongModel.dart';
+import 'package:music_player/Model/my_song_model.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
 class SongPlayerController extends GetxController {
