@@ -4,7 +4,7 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 // import 'package:music_player/Pages/DemoPage.dart';
 // import 'package:music_player/Pages/SongPage.dart';
 import 'package:music_player/Pages/SplaceScreen.dart';
-import 'package:music_player/config/Theme.dart';
+import 'package:music_player/config/theme.dart';
 import 'package:music_player/firebase_options.dart';
 
 void main() async {

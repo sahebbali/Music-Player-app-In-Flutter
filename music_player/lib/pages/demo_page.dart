@@ -1,7 +1,7 @@
 // import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:music_player/controller/CloudSongController.dart';
+import 'package:music_player/controller/cloud_song_controller.dart';
 
 class DemoPage extends StatelessWidget {
   const DemoPage({super.key});

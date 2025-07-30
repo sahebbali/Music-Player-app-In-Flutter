@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:music_player/Pages/PlaySongPage.dart';
-import 'package:music_player/components/SongTile.dart';
-import 'package:music_player/components/TrendingSogSlider.dart';
-import 'package:music_player/components/songHeader.dart';
+import 'package:music_player/components/song_tile.dart';
+import 'package:music_player/components/trending_song_slider.dart';
+import 'package:music_player/components/song_header.dart';
 import 'package:music_player/config/Colors.dart';
-import 'package:music_player/controller/CloudSongController.dart';
-import 'package:music_player/controller/SongPlayerController.dart';
-import 'package:music_player/controller/songDataController.dart';
+
+import 'package:music_player/controller/cloud_song_controller.dart';
+import 'package:music_player/controller/song_data_dontroller.dart';
+import 'package:music_player/controller/song_player_controller.dart';
+
 // import 'package:on_audio_query/on_audio_query.dart';
 
 class SongPage extends StatelessWidget {

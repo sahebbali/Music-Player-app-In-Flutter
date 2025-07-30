@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_svg/flutter_svg.dart';
-import 'package:music_player/components/PlaySongHeaderButton.dart';
-import 'package:music_player/components/SongAndVolume.dart';
-import 'package:music_player/components/SongControllerButton.dart';
-import 'package:music_player/components/SongDetails.dart';
+import 'package:music_player/components/play_song_header_button.dart';
+import 'package:music_player/components/song_and_volume.dart';
+import 'package:music_player/components/song_controller_button.dart';
+import 'package:music_player/components/song_details.dart';
 // import 'package:music_player/components/Songwave.dart';
 // import 'package:music_player/config/Colors.dart';
 // import 'package:syncfusion_flutter_gauges/gauges.dart';
